@@ -1,0 +1,37 @@
+{"meta": {"cmd": "run", "name": "sparse-x-update", "before": ".venv/bin/python bench/step_impl.py base {out} {input}", "after": ".venv/bin/python bench/step_impl.py sparse {out} {input}", "input": ["/tmp/badapple_bench_seed.txt"], "gen": "sh -c \"echo {seed} > {out}\"", "measure": ".venv/bin/python bench/measure_run.py {cmd}", "check": ".venv/bin/python bench/check_json.py {expected} {actual} 0.02 final", "primary": null, "higher_better": "", "rounds": 3, "runs": 3, "timeout": 600, "inputs": ["badapple_bench_seed.txt", "gen-488989035.input"], "lock": {"bench/.lock": "f4287cbab8dee6738378acf46bf46207cc2b08a4d3cfe1830756ae9d2ce4523e", "bench/candidates.md": "3aa7269a63208d047f048b928ed895bf3e000d0a4fc7f8efb1b5b40f76b08593", "bench/check_json.py": "e969772a027bc4757eb0710096838ed8677f29714f4911f1fedcd955783ff040", "bench/check_npy.py": "7768ef02908e35f5fbe0ed2b15accd81847e9dda79cc35d3c2418fe26c58e2eb", "bench/measure_run.py": "a524083a4d5f39b3ad95f5e39ad49a7ff4eff6a7020cfbabd5d3737559f964ec", "bench/profile_step.py": "af24d64b267f1de269a3bf1a011a34f8c443a1827d47df2358b17103b6a50a2b", "bench/profiles/step_baseline.json": "d4745f7dbb4cf69f6d541eaff54f05d624abdc2867f1fe0b6d9a392330c8c59f", "bench/render_impl.py": "eab2fc9a2bee3b50216a6b00ce883a4082ee066edfb9047f8c49741815c38a78", "bench/runs/20261106-230425-sparse-x-update.jsonl": "4957715418b663e8aff3fbc231a38296bca2f67a7ec39dab0f73aee9c3e913ba", "bench/runs/20261106-230443-sparse-x-update.jsonl": "55001a7a4be83e34b2f8615ab8677591e8cee93491f590b76be1900ba1d3d7c3", "bench/runs/20261106-231942-sparse-x-update.jsonl": "c543a5e78198a23f200c7a651190e055d20439d0ac5e7db98e9c49ee54fcd820", "bench/runs/20261106-233719-sparse-x-update.jsonl": "000ef94008e56bcd6a6e3133608f9ffd4c0637f894b310d3a084469ae6aa830f", "bench/step_impl.py": "83fd59ad53b9559a265466c952fe61b2eea333799d0ff35f963d70b862ea2710"}}}
+{"variant": "before", "input": "badapple_bench_seed.txt", "round": 0, "run": 0, "ok": true, "metrics": {"wall_s": 19.5205}}
+{"variant": "before", "input": "gen-488989035.input", "round": 0, "run": 0, "ok": true, "metrics": {"wall_s": 23.2849}}
+{"variant": "after", "input": "badapple_bench_seed.txt", "round": 0, "run": 0, "ok": false, "metrics": {}}
+{"variant": "after", "input": "gen-488989035.input", "round": 0, "run": 0, "ok": false, "metrics": {}}
+{"variant": "after", "input": "badapple_bench_seed.txt", "round": 0, "run": 1, "ok": false, "metrics": {}}
+{"variant": "after", "input": "gen-488989035.input", "round": 0, "run": 1, "ok": false, "metrics": {}}
+{"variant": "before", "input": "badapple_bench_seed.txt", "round": 0, "run": 1, "ok": true, "metrics": {"wall_s": 17.6588}}
+{"variant": "before", "input": "gen-488989035.input", "round": 0, "run": 1, "ok": true, "metrics": {"wall_s": 20.3665}}
+{"variant": "after", "input": "badapple_bench_seed.txt", "round": 0, "run": 2, "ok": false, "metrics": {}}
+{"variant": "after", "input": "gen-488989035.input", "round": 0, "run": 2, "ok": false, "metrics": {}}
+{"variant": "before", "input": "badapple_bench_seed.txt", "round": 0, "run": 2, "ok": true, "metrics": {"wall_s": 20.0461}}
+{"variant": "before", "input": "gen-488989035.input", "round": 0, "run": 2, "ok": true, "metrics": {"wall_s": 21.0203}}
+{"variant": "before", "input": "badapple_bench_seed.txt", "round": 1, "run": 0, "ok": true, "metrics": {"wall_s": 19.1704}}
+{"variant": "before", "input": "gen-488989035.input", "round": 1, "run": 0, "ok": true, "metrics": {"wall_s": 20.5191}}
+{"variant": "after", "input": "badapple_bench_seed.txt", "round": 1, "run": 0, "ok": false, "metrics": {}}
+{"variant": "after", "input": "gen-488989035.input", "round": 1, "run": 0, "ok": false, "metrics": {}}
+{"variant": "after", "input": "badapple_bench_seed.txt", "round": 1, "run": 1, "ok": false, "metrics": {}}
+{"variant": "after", "input": "gen-488989035.input", "round": 1, "run": 1, "ok": false, "metrics": {}}
+{"variant": "before", "input": "badapple_bench_seed.txt", "round": 1, "run": 1, "ok": true, "metrics": {"wall_s": 22.155}}
+{"variant": "before", "input": "gen-488989035.input", "round": 1, "run": 1, "ok": true, "metrics": {"wall_s": 24.3904}}
+{"variant": "after", "input": "badapple_bench_seed.txt", "round": 1, "run": 2, "ok": false, "metrics": {}}
+{"variant": "after", "input": "gen-488989035.input", "round": 1, "run": 2, "ok": false, "metrics": {}}
+{"variant": "before", "input": "badapple_bench_seed.txt", "round": 1, "run": 2, "ok": true, "metrics": {"wall_s": 44.545}}
+{"variant": "before", "input": "gen-488989035.input", "round": 1, "run": 2, "ok": true, "metrics": {"wall_s": 49.92}}
+{"variant": "after", "input": "badapple_bench_seed.txt", "round": 2, "run": 0, "ok": false, "metrics": {}}
+{"variant": "after", "input": "gen-488989035.input", "round": 2, "run": 0, "ok": false, "metrics": {}}
+{"variant": "before", "input": "badapple_bench_seed.txt", "round": 2, "run": 0, "ok": true, "metrics": {"wall_s": 38.535}}
+{"variant": "before", "input": "gen-488989035.input", "round": 2, "run": 0, "ok": true, "metrics": {"wall_s": 42.1744}}
+{"variant": "after", "input": "badapple_bench_seed.txt", "round": 2, "run": 1, "ok": false, "metrics": {}}
+{"variant": "after", "input": "gen-488989035.input", "round": 2, "run": 1, "ok": false, "metrics": {}}
+{"variant": "before", "input": "badapple_bench_seed.txt", "round": 2, "run": 1, "ok": true, "metrics": {"wall_s": 32.7446}}
+{"variant": "before", "input": "gen-488989035.input", "round": 2, "run": 1, "ok": true, "metrics": {"wall_s": 35.2161}}
+{"variant": "before", "input": "badapple_bench_seed.txt", "round": 2, "run": 2, "ok": true, "metrics": {"wall_s": 44.4599}}
+{"variant": "before", "input": "gen-488989035.input", "round": 2, "run": 2, "ok": true, "metrics": {"wall_s": 44.7448}}
+{"variant": "after", "input": "badapple_bench_seed.txt", "round": 2, "run": 2, "ok": false, "metrics": {}}
+{"variant": "after", "input": "gen-488989035.input", "round": 2, "run": 2, "ok": false, "metrics": {}}

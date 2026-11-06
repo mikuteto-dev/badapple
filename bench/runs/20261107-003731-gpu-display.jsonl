@@ -1,0 +1,19 @@
+{"meta": {"cmd": "run", "name": "gpu-display", "before": ".venv/bin/python bench/render_impl.py base {out}", "after": ".venv/bin/python bench/render_impl.py gpu {out}", "input": [], "gen": null, "measure": ".venv/bin/python bench/measure_run.py {cmd}", "check": ".venv/bin/python bench/check_npy.py {expected} {actual}", "primary": null, "higher_better": "", "rounds": 3, "runs": 3, "timeout": 600, "inputs": ["-"], "lock": {"bench/.lock": "b4e65254f6f45429ca6c311b68d337dad0d997f6614c95107dcec638d149fd6c", "bench/candidates.md": "3aa7269a63208d047f048b928ed895bf3e000d0a4fc7f8efb1b5b40f76b08593", "bench/check_json.py": "e969772a027bc4757eb0710096838ed8677f29714f4911f1fedcd955783ff040", "bench/check_npy.py": "7768ef02908e35f5fbe0ed2b15accd81847e9dda79cc35d3c2418fe26c58e2eb", "bench/measure_run.py": "a524083a4d5f39b3ad95f5e39ad49a7ff4eff6a7020cfbabd5d3737559f964ec", "bench/profile_step.py": "af24d64b267f1de269a3bf1a011a34f8c443a1827d47df2358b17103b6a50a2b", "bench/profiles/step_baseline.json": "d4745f7dbb4cf69f6d541eaff54f05d624abdc2867f1fe0b6d9a392330c8c59f", "bench/render_impl.py": "eab2fc9a2bee3b50216a6b00ce883a4082ee066edfb9047f8c49741815c38a78", "bench/runs/20261106-230425-sparse-x-update.jsonl": "4957715418b663e8aff3fbc231a38296bca2f67a7ec39dab0f73aee9c3e913ba", "bench/runs/20261106-230443-sparse-x-update.jsonl": "55001a7a4be83e34b2f8615ab8677591e8cee93491f590b76be1900ba1d3d7c3", "bench/runs/20261106-231942-sparse-x-update.jsonl": "c543a5e78198a23f200c7a651190e055d20439d0ac5e7db98e9c49ee54fcd820", "bench/runs/20261106-233719-sparse-x-update.jsonl": "000ef94008e56bcd6a6e3133608f9ffd4c0637f894b310d3a084469ae6aa830f", "bench/runs/20261106-235445-sparse-x-update.jsonl": "6b028ebe8e74ab92747574c8e108815b8347d325929c9046e278da56de4a8b75", "bench/step_impl.py": "3fc48740767befac9724c27e00e57cf7270197584802e37e3ed54c318cdea91e"}}}
+{"variant": "after", "input": "-", "round": 0, "run": 0, "ok": false, "metrics": {}}
+{"variant": "before", "input": "-", "round": 0, "run": 0, "ok": false, "metrics": {"wall_s": 4.2633}}
+{"variant": "before", "input": "-", "round": 0, "run": 1, "ok": false, "metrics": {"wall_s": 4.562}}
+{"variant": "after", "input": "-", "round": 0, "run": 1, "ok": false, "metrics": {}}
+{"variant": "before", "input": "-", "round": 0, "run": 2, "ok": false, "metrics": {"wall_s": 6.5753}}
+{"variant": "after", "input": "-", "round": 0, "run": 2, "ok": false, "metrics": {}}
+{"variant": "after", "input": "-", "round": 1, "run": 0, "ok": false, "metrics": {}}
+{"variant": "before", "input": "-", "round": 1, "run": 0, "ok": false, "metrics": {"wall_s": 3.1549}}
+{"variant": "before", "input": "-", "round": 1, "run": 1, "ok": false, "metrics": {"wall_s": 2.4596}}
+{"variant": "after", "input": "-", "round": 1, "run": 1, "ok": false, "metrics": {}}
+{"variant": "after", "input": "-", "round": 1, "run": 2, "ok": false, "metrics": {}}
+{"variant": "before", "input": "-", "round": 1, "run": 2, "ok": false, "metrics": {"wall_s": 1.7935}}
+{"variant": "after", "input": "-", "round": 2, "run": 0, "ok": false, "metrics": {}}
+{"variant": "before", "input": "-", "round": 2, "run": 0, "ok": false, "metrics": {"wall_s": 1.9706}}
+{"variant": "before", "input": "-", "round": 2, "run": 1, "ok": false, "metrics": {"wall_s": 2.2414}}
+{"variant": "after", "input": "-", "round": 2, "run": 1, "ok": false, "metrics": {}}
+{"variant": "before", "input": "-", "round": 2, "run": 2, "ok": false, "metrics": {"wall_s": 2.663}}
+{"variant": "after", "input": "-", "round": 2, "run": 2, "ok": false, "metrics": {}}
