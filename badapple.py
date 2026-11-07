@@ -386,7 +386,7 @@ def main():
     sub.add_parser("download").set_defaults(fn=download)
     p_train = sub.add_parser("train")
     p_train.add_argument("--steps", type=int, default=20000)
-    p_train.add_argument("--dim", type=int, default=128)
+    p_train.add_argument("--dim", type=int, default=64)
     p_train.add_argument("--batch", type=int, default=256)
     p_train.add_argument("--lr", type=float, default=0.1)
     p_train.add_argument("--snapshots", type=int, default=10)
